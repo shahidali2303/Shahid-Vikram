@@ -4,10 +4,155 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1 id="root">hello</h1>
-    <!-- location to embed js file - best practice -->
-    <script src="array-exercise.js"></script>
+    <!-- tags and elements -->
+    <!-- how to define element -->
+    <p>kjfhskdhfj</p>
+    <!-- how to define tags -->
+    <p></p>
+
+    <!-- semantic tags  -->
+    <!-- <nav></nav>
+     <footer>
+
+     </footer> -->
+    <!-- div in HTML => is acts as a container  -->
+
+    <!-- headings  -->
+    <h1>Highest Heading</h1>
+    <h1>Highest Heading</h1>
+    <h1>Highest Heading</h1>
+    <h1>Highest Heading</h1>
+    <h1>Highest Heading</h1>
+    <h1>Highest Heading</h1>
+
+    <h6>Lowest heading</h6>
+
+    <p>
+      this is a paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing
+      elit. Repellat, cumque aut alias doloribus laboriosam natus vitae quo in
+      possimus minus ipsa, deserunt labore officia quos et. Sequi sit quia
+      voluptates?
+    </p>
+    <!-- if we need to preformat text at the code itself => <pre> -->
+    <pre>
+      Lorem ipsum dolor sit amet,
+      Lorem     ipsum dolor sit amet, 
+      Lorem ipsum   dolor sit amet,
+      Lorem ipsum dolor sit amet.
+    </pre>
+
+    <!-- to make text bold  -->
+    <p>this is <b>bolder text</b> a para</p>
+    <p>this is <strong>bolder text</strong> a para</p>
+
+    <!-- to make text italic  -->
+    <p class="para">this is <i>bolder text</i> a para</p>
+    <p>this is <em>bolder text</em> a para</p>
+
+    <!-- highlight text  -->
+    <p id="b">this is a <mark>para</mark></p>
+
+    <!-- moving text  -->
+    <marquee behavior="" direction="right"><p>hello</p></marquee>
+
+    <!-- colors  -->
+    <!-- 1.HEX Values -->
+    <h1 style="background-color: #000000">black</h1>
+    <!-- 2. RGB values -->
+    <!-- rgb(red,green,blue) 0 to 255 -->
+    <h1 style="background-color: rgba(255, 0, 0, 0.5)">Red color</h1>
+
+    <!-- link to pages  -->
+    <a href="https://www.etsy.com/in-en/" target="_blank">Move to About Page</a>
+    this target attributes tell where the link will open
+
+    <!-- insert image  -->
+    <img src="https://picsum.photos/200" alt="logo" />
+    <img src="indian-soil.jpg" width="500" height="200" alt="logo" />
+
+    <!-- tables  -->
+    <!-- th => table head , tr=> table row, td=table description -->
+    <table>
+      <tr>
+        <th rowspan="2">name</th>
+        <th>age</th>
+        <th>company</th>
+      </tr>
+      <tr>
+        <td>Shahid</td>
+        <td>30</td>
+        <td>delhi</td>
+      </tr>
+    </table>
+
+    <!-- list  -->
+    <!-- ordered list -->
+    <div>
+      <ol>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li><a href="#b">hello</a></li>
+      </ol>
+      <ul>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li><a href="#b">hello</a></li>
+      </ul>
+      <dl>
+        <dt>title</dt>
+        <dd>black hot coffe</dd>
+        <dt>title</dt>
+        <dd>black hot coffe</dd>
+      </dl>
+    </div>
+
+    <p id="">This is id</p>
+    <p class="para">This is class</p>
+
+    <!-- we use iframe to embeb things like youtube video, maps , spotify, etc  -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/1vmOa9oRMvA?si=I3lh5eD5O5t87NXX"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.89796339086!2d77.04416717106561!3d28.52755441229373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1731321068895!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <summary>this is a summary</summary>
+
+    <!-- forms  -->
+    <!-- form=> uses to collect data from the users  -->
+    <form action="" method="post">
+      <label for="">Name</label>
+      <input type="text" placeholder="enter your name" required />
+      <label for="email">Email</label>
+      <input type="email" disabled />
+      <textarea
+        name="text"
+        rows="3"
+        id=""
+        placeholder="enter your message"
+      ></textarea>
+      <input type="checkbox" />
+      <input type="radio" />
+      <button>Submit</button>
+    </form>
   </body>
 </html>

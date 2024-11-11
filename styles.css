@@ -1,0 +1,21 @@
+h1 {
+  color: aqua;
+}
+
+#bottom-para {
+  background-color: brown;
+}
+.bottom-para {
+}
+
+tr th {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+tr td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.para {
+  background-color: blue;
+}
