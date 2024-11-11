@@ -88,3 +88,18 @@ function functionName() {
 const output = () => {
   // return()
 };
+
+// primitive type
+let rf = 8;
+let tg = rf; // 8 thi is a copy, both points to different addresses
+rf = 10;
+console.log("tg", tg);
+
+// reference type
+const person = {
+  name: "Vikram",
+};
+let g = person;
+g.name = "shahid";
+console.log(g);
+console.log(person);
