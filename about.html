@@ -3,9 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About Page</title>
+
+    <!-- 1. here we imported or link the external style sheet  -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- // 2. internal style sheet  -->
+    <style>
+      h1 {
+        background-color: pink;
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    About Page
+    <h1>All about CSS</h1>
+    <p>CSS-> Casecading Style Sheet</p>
+    <h1 style="background-color: brown">How many ways to add css</h1>
+    <p>We should always include the external css file in the head tag</p>
+    <ul>
+      <li>external CSS</li>
+      <li>internal CSS</li>
+      <li>inline css</li>
+    </ul>
+
+    <h1>CSS Selectors</h1>
+    <ul>
+      <li>Id</li>
+      <li>Class</li>
+    </ul>
+    <p class="heading">this is a para</p>
+    <p class="heading">this is a para</p>
+    <p class="heading">this is a para</p>
+    <p class="heading">this is a para</p>
+    <p class="heading">this is a para</p>
+    <p class="heading">this is a para</p>
+    <p id="subheading">this is another para</p>
+
+    <div class="container">
+      <div class="wrapper-container">
+        <div class="container-3">
+          <p class="para">
+            Lorem Ipsum Dolor Sit, amet consectetur adipisicing elit. Ex
+            voluptatibus optio, voluptatem illo unde necessitatibus autem,
+            facere minus molestiae dignissimos vitae suscipit voluptate debitis
+            aperiam possimus id porro ad distinctio!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- padding and margin  -->
+    <div style="background-color: pink; margin: 100px">
+      <div style="padding: 100px">
+        <p class="para2">thi is para</p>
+      </div>
+    </div>
+
+    <!-- // text decorations  -->
+    <p class="lastpara">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+      voluptate! test
+    </p>
+    <h2 class="shadow">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      molestias.
+    </h2>
+    <i class="fa-solid fa-gear fa-3x"></i>
+
+    <div>
+      <h2>CSS Position Properties</h2>
+      <p>5 types -></p>
+      <ul>
+        <li>static- default</li>
+        <li>relative</li>
+        <li>fixed</li>
+        <li>absolute</li>
+        <li>sticky</li>
+      </ul>
+      <div><i class="fa-solid fa-gear fa-3x"></i></div>
+      <div class="box" id="box2">2</div>
+      <div class="box" id="box3">3</div>
+      <div class="box" id="box4">4</div>
+    </div>
+
+    <h1>thi sis heading</h1>
+    <img src="https://picsum.photos/200" class="z-index-img" alt="" />
+    <img src="https://picsum.photos/300" class="z-index-img-300" alt="" />
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae,
+      iure.
+    </p>
   </body>
 </html>
